@@ -161,7 +161,7 @@ print(matches)
 
 
 ```
-#POS tagging
+## POS tagging
 ```py 
 import nltk
 nltk.download('punkt')
@@ -177,7 +177,7 @@ for sentence in sentences:
  pos_tags = nltk.pos_tag(words)
  print(pos_tags)
  ```
- #stemming
+ ## stemming
  ```py
 import nltk
 nltk.download('punkt')
@@ -188,7 +188,7 @@ token = nltk.word_tokenize(text)
 for i in token:
   print("Stemming for {} is {}".format(i, ans.stem(i)))
   ```
-#lemmatization
+## lemmatization
 ```py
 from traitlets.config.application import T
 import nltk
